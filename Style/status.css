@@ -1,0 +1,233 @@
+@import url(fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Сигменты */
+
+.sigments_box {
+    max-width: 1137px;
+    width: 100%;
+    background: #ffffff;
+    height: 629px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 166, 0);
+    box-shadow: 0 0 3px rgb(255, 132, 0);
+    background-image: url(../img/a.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2b2b2b;
+    margin: 0 auto;
+}
+
+.sigments_content {
+    height: 550px;
+    width: 1068px;
+    background: #fefefe;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 170, 0);
+    box-shadow: 0 0 3px rgb(255, 179, 0);
+}
+
+.overflowh {
+    overflow: hidden;
+}
+
+.overflows {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.sig_line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #7e7e7ec7;
+    box-shadow: 0 0 3px rgb(120, 120, 120);
+}
+
+.df {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    align-items: center;
+}
+
+/* nav */
+
+.semesigstyle {
+    font-family: 'Aqum';
+    font-size: 23px;
+    color: #2b2b2b;
+}
+
+.signav-statust {
+    margin-left: 24px;
+}
+
+.signav-numt {
+    margin-left: 48px;
+}
+
+.signav-clastt {
+    margin-left: 100px;
+}
+
+.signav-serverst {
+    margin-left: 40px;
+}
+
+.signav-userst {
+    margin-left: 40px;
+}
+
+.signav-chanelst {
+    margin-left: 40px;
+}
+
+.signav-delayt {
+    margin-left: 40px;
+}
+
+/* row */
+
+.samestr {
+    font-family: 'Aqum';
+    font-weight: 100;
+    color: #3f3f3f;
+    font-size: 22px;
+
+}
+
+.sigments__row-status {
+    padding: 3px;
+    border-radius: 5px;
+    background: rgb(0, 210, 0);
+    border: 1px solid rgb(0, 135, 11);
+    margin-left: 24px;
+    margin-right: 10px;
+    max-width: 110.68px;
+    width: 100%;
+    text-align: center;
+}
+
+.sigments__row-sig {
+    margin-left: 48px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.sigments__row-clast {
+    margin-left: 15px;
+    max-width: 91.82px;
+    width: 100%;
+}
+
+.sigments__row-servers {
+    margin-left: 40px;
+    max-width: 107.51px;
+    width: 100%;
+}
+
+.sigments__row-users {
+    margin-left: 40px;
+    max-width: 169.65px;
+    width: 100%;
+}
+
+.sigments__row-chanels {
+    margin-left: 40px;
+    max-width: 93.57px;
+    width: 100%;
+}
+
+.sigments__row-delay {
+    margin-left: 40px;
+    max-width: 110.78px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1137px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* Ноды */
+
+.status_musicalnodes {
+    display: flex;
+}
+
+.status_musicalnode {
+    max-width: 408px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 138px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 157, 0);
+    box-shadow: 0 0 3px rgb(255, 145, 0);
+    margin-right: 20px;
+    background-image: url(../img/a.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.musical__node_top {
+    display: flex;
+    max-width: 342px;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.musical__node_top-status {
+    width: 24px;
+    height: 24px;
+    background: rgb(0, 202, 0);
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.317);
+}
+
+.musical__node_top-title {
+    font-family: 'Aqum';
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(79, 0, 182);
+}
+
+.musical__node_bottom-players {
+    font-family: 'Aqum';
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.musical__node_bottom-playingplayers {
+    font-family: 'Aqum';
+    color: #2b2b2b;
+    font-size: 19px;
+}
+
+.musical_margin {
+    margin-top: 100px;
+}
